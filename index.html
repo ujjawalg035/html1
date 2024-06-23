@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        header .try-free {
+                padding: 10px 20px;
+                font-size: 16px;
+                color: #333;
+                background-color: white;
+                border: 2px solid #ff52bf;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+            
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+        }
+        
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .hero .cta {
+            background-color: #ff52bf;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            border-radius: 50px;
+            font-size: 18px;
+        }
+        
+        .image-container {
+            margin-top: 30px;
+        }
+        
+        .stats {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
+        
+        .stats .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .stat h2 {
+            font-size: 36px;
+            color: #ff52bf;
+        }
+        
+        .stat p {
+            font-size: 18px;
+        }
+        
+        .features {
+            padding: 50px 0;
+        }
+        
+        .features .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .feature {
+            text-align: center;
+            flex-basis: 30%;
+        }
+        
+        .feature img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section {
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 50px 0;
+        }
+        
+        .cta-section .cta {
+            background-color: #ff52bf;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            border-radius: 50px;
+            font-size: 18px;
+        }
+        
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 50px 0;
+        }
+        
+        footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        footer .footer-logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        footer .contact-info p,
+        footer .newsletter p {
+            margin-bottom: 10px;
+        }
+        
+        footer .social-media a {
+            color: #ff52bf;
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+        
+        footer .newsletter form {
+            display: flex;
+        }
+        
+        footer .newsletter input[type="email"] {
+            padding: 10px;
+            border: none;
+            border-radius: 50px 0 0 50px;
+            flex: 1;
+        }
+        
+        footer .newsletter button {
+            padding: 10px;
+            background-color: #ff52bf;
+            color: #fff;
+            border: none;
+            border-radius: 0 50px 50px 0;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.svg" alt="">
+            <button class="try-free">Try It Free</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Build The Community Your Fans Will Love</h1>
+                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                <button class="cta">Get Started For Free</button>
+                <div class="image-container">
+                    <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/screen-mockups.svg" alt="Community illustration">
+                </div>
+            </div>
+        </section>
+        <section class="stats">
+            <div class="container">
+                <div class="stat">
+                    <h2>1.4k+</h2>
+                    <p>Communities Formed</p>
+                </div>
+                <div class="stat">
+                    <h2>2.7m+</h2>
+                    <p>Messages Sent</p>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="feature">
+                    <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/illustration-grow-together.svg" alt="Grow Together">
+                    <h3>Grow Together</h3>
+                    <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out with a feedback form.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/illustration-flowing-conversation.svg" alt="Flowing Conversations">
+                    <h3>Flowing Conversations</h3>
+                    <p>You wouldn’t paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/illustration-your-users.svg" alt="Your Users">
+                    <h3>Your Users</h3>
+                    <p>It takes no time at all to integrate Huddle with your app’s authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+                </div>
+            </div>
+        </section>
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready To Build Your Community?</h2>
+                <button class="cta">Get Started For Free</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Huddle</div>
+                <div class="contact-info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus quis diam eget faucibus.</p>
+                    <p>Phone: +1-543-123-4567</p>
+                    <p>Email: example@huddle.com</p>
+                </div>
+                <div class="social-media">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+                <div class="newsletter">
+                    <p>To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+                    <form action="#">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
